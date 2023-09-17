@@ -3,7 +3,7 @@ LABEL authors="tutunak"
 
 COPY . /app
 WORKDIR /app
-RUN go build -o goapp .
+RUN go build -o tgpingbot .
 
 FROM alpine:3.18 as production
 LABEL authors="tutunak"
